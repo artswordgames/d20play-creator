@@ -571,10 +571,13 @@ def step_final_details(c: CharacterCreator, n: int):
     print()
 
     if c.character.class_name == "Priest":
-        print(f"  {BOLD}As a Priest, you must choose a deity{RESET}")
-        info("Your deity's alignment should match your own.\n")
+        print(f"  {BOLD}Priests must serve a deity whose alignment matches their own.{RESET}\n")
         c.set_deity(ask("Deity name"))
-        print()
+    else:
+        deity = ask("Deity (optional — press Enter to skip)")
+        if deity:
+            c.set_deity(deity)
+    print()
 
     print(f"  {BOLD}Languages known:{RESET} {', '.join(c.character.languages)}")
     pause()
