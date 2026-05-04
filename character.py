@@ -260,7 +260,7 @@ class Character:
                 lines.append(f"  ★ = Studied Spell (cast with AD)")
         
         lines.append(f"{'='*60}")
-        lines.append(f"  d20play RPG v0.2.8.1")
+        lines.append(f"  d20play RPG v0.2.8.2")
         lines.append(f"{'='*60}")
         
         return "\n".join(lines)
