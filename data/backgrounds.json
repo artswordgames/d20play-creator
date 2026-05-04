@@ -1,0 +1,203 @@
+{
+  "version": "0.2.8.2",
+  "backgrounds": {
+    "Acolyte": {
+      "roll": 1,
+      "skills": [
+        "Influence",
+        "Religion"
+      ],
+      "languages": [
+        "Celestial"
+      ]
+    },
+    "Apprentice": {
+      "roll": 2,
+      "skills": [
+        "Arcana",
+        "Lore"
+      ],
+      "languages": [
+        "Rare"
+      ]
+    },
+    "Artisan": {
+      "roll": 3,
+      "skills": [
+        "Craft",
+        "Influence",
+        "Observe"
+      ]
+    },
+    "Charlatan": {
+      "roll": 4,
+      "skills": [
+        "Influence",
+        "Subterfuge"
+      ],
+      "languages": [
+        "Any"
+      ]
+    },
+    "Chef": {
+      "roll": 5,
+      "skills": [
+        "Craft",
+        "Nature"
+      ],
+      "languages": [
+        "Elvish"
+      ]
+    },
+    "Chirurgeon": {
+      "roll": 6,
+      "skills": [
+        "Arcana",
+        "Nature",
+        "Religion"
+      ]
+    },
+    "Craftsman": {
+      "roll": 7,
+      "skills": [
+        "Athletics",
+        "Craft"
+      ],
+      "languages": [
+        "Standard"
+      ]
+    },
+    "Criminal": {
+      "roll": 8,
+      "skills": [
+        "Influence",
+        "Observe",
+        "Subterfuge"
+      ]
+    },
+    "Cultist": {
+      "roll": 9,
+      "skills": [
+        "Religion",
+        "Subterfuge"
+      ],
+      "languages": [
+        "Rare"
+      ]
+    },
+    "Farmer": {
+      "roll": 10,
+      "skills": [
+        "Athletics",
+        "Craft",
+        "Nature"
+      ]
+    },
+    "Herbalist": {
+      "roll": 11,
+      "skills": [
+        "Arcana",
+        "Craft",
+        "Nature"
+      ]
+    },
+    "Mason": {
+      "roll": 12,
+      "skills": [
+        "Craft",
+        "Athletics"
+      ],
+      "languages": [
+        "Dwarvish"
+      ]
+    },
+    "Noble": {
+      "roll": 13,
+      "skills": [
+        "Influence",
+        "Lore"
+      ],
+      "languages": [
+        "Standard"
+      ]
+    },
+    "Sailor": {
+      "roll": 14,
+      "skills": [
+        "Athletics",
+        "Nature"
+      ],
+      "languages": [
+        "Standard"
+      ]
+    },
+    "Scholar": {
+      "roll": 15,
+      "skills": [
+        "Lore",
+        "Religion"
+      ],
+      "languages": [
+        "Any"
+      ]
+    },
+    "Scout": {
+      "roll": 16,
+      "skills": [
+        "Nature",
+        "Observe"
+      ],
+      "languages": [
+        "Standard"
+      ]
+    },
+    "Thespian": {
+      "roll": 17,
+      "skills": [
+        "Athletics",
+        "Performance"
+      ],
+      "languages": [
+        "Any"
+      ]
+    },
+    "Urchin": {
+      "roll": 18,
+      "skills": [
+        "Athletics",
+        "Craft",
+        "Subterfuge"
+      ]
+    },
+    "Warrior": {
+      "roll": 19,
+      "skills": [
+        "Athletics",
+        "Craft",
+        "Observe"
+      ]
+    },
+    "Unique": {
+      "roll": 20,
+      "skills": [
+        "Any"
+      ],
+      "languages": [
+        "Any"
+      ]
+    }
+  },
+  "skills": {
+    "Arcana": "Alchemy, antidote, bloodletting, break set, create/identify magic item, diagnose, herbal remedy, magic, midwife, planes, poisons, psionics, runes, sigils, spell craft, surgery, wound closure.",
+    "Athletics": "Acrobatics, balance, break, carry, climb, disarm traps, drive vehicle, endure, escape, force, grapple, jump, lift, pick lock/pocket, sleight of hand, swim, tumble.",
+    "Craft": "Armory, brewing, calligraphy, carpentry, cartography, cobbling, cooking, forgery, glassblowing, jeweling, leatherworking, mechanics, painting, pottery, recipes, sculpting, sewing, smithing, weaving, woodcarving.",
+    "Influence": "Negotiate, persuade, read people, rumors.",
+    "Lore": "History, heraldry, legends, literature, identify mundane items.",
+    "Nature": "Animal handling, forage, nature lore, navigate, track, weather sense.",
+    "Observe": "Find, listen, search, spot.",
+    "Performance": "Act, comedy, dance, drums, flute, horn, lute, oration, poetry, sing.",
+    "Religion": "Ceremony, consecrate, divine lore, identify undead, last rites, religion lore.",
+    "Subterfuge": "Bluff, ciphers, deception, disguise, hide, intimidate, sneak, thieves' cant."
+  },
+  "notes": "Choose one skill or language from the background. You gain AD for checks with that skill or you know that language."
+}

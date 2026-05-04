@@ -1,0 +1,82 @@
+{
+  "version": "0.2.8.2",
+  "races": {
+    "Dwarf": {
+      "roll_range": [1, 3],
+      "description": "Stout folk skilled in mining and metalworking.",
+      "speed": 25,
+      "languages": ["Common", "Dwarvish"],
+      "size": "Medium",
+      "talents": {
+        "Hardy": "AD save/resist poison",
+        "Stubborn": "AD WS",
+        "Sturdy": "+1+1/EL hp (does not stack)"
+      }
+    },
+    "Elf": {
+      "roll_range": [4, 6],
+      "description": "Graceful folk with pointed ears and a youthful appearance.",
+      "speed": 30,
+      "languages": ["Common", "Elvish"],
+      "size": "Medium",
+      "talents": {
+        "Archer": "+1 ranged weapon attacks",
+        "Fleet": "+10' base speed (does not stack)",
+        "Fae": "+1 spellcasting"
+      }
+    },
+    "Gnome": {
+      "roll_range": [7, 7],
+      "description": "A small and curious people who tinker with craft of all sorts.",
+      "speed": 25,
+      "languages": ["Common", "Gnomish"],
+      "size": "Small",
+      "talents": {
+        "Wizened": "Ignore spell effects on you (if you desire) unless caster's cast check was 13+",
+        "Tinkerer": "Add Mend to known spells (using your choice of I/W/Ch)",
+        "Trickster": "Add Minor Illusion to known spells (using your choice of I/W/Ch)"
+      }
+    },
+    "Half-Elf": {
+      "roll_range": [8, 8],
+      "description": "Born of a union of elf and human, often masters of diplomacy.",
+      "speed": 30,
+      "languages": ["Common", "Elvish"],
+      "size": "Medium",
+      "talents": {
+        "Ambitious": "Extra class talent roll at level 1",
+        "Linguist": "+1 standard and +1 rare language",
+        "Fae": "+1 spellcasting"
+      }
+    },
+    "Halfling": {
+      "roll_range": [9, 10],
+      "description": "A small and cheerful folk who enjoy life's simple pleasures.",
+      "speed": 25,
+      "languages": ["Common"],
+      "size": "Small",
+      "talents": {
+        "Brave": "Immune to fear",
+        "Lucky": "Start with and can have extra luck token",
+        "Sneaky": "Hidden with partial cover or concealment; full speed while hidden"
+      }
+    },
+    "Human": {
+      "roll_range": [11, 20],
+      "description": "A bold, adaptable, and diverse people.",
+      "speed": 30,
+      "languages": ["Common"],
+      "extra_languages": {"standard": 1},
+      "size": "Medium",
+      "talents": {
+        "Ambitious": "Extra class talent roll at level 1",
+        "Lucky": "Start with and can have extra luck token",
+        "Resilient": "Gain AD with a second stat save"
+      }
+    }
+  },
+  "languages": {
+    "standard": ["Dwarvish", "Elvish", "Giant", "Gnomish", "Goblin", "Orcish", "Thanian"],
+    "rare": ["Abyssal", "Celestial", "Draconic", "Infernal", "Primordial", "Reptilian", "Sylvan", "Ma'alian", "Thieves' Cant", "Undercommon"]
+  }
+}

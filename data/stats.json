@@ -1,0 +1,26 @@
+{
+  "version": "0.2.8.2",
+  "stat_table": {
+    "1": -3,
+    "2-3": -2,
+    "4-7": -1,
+    "8-13": 0,
+    "14-17": 1,
+    "18-19": 2,
+    "20": 3
+  },
+  "stat_table_lookup": [
+    {"min": 1, "max": 1, "modifier": -3},
+    {"min": 2, "max": 3, "modifier": -2},
+    {"min": 4, "max": 7, "modifier": -1},
+    {"min": 8, "max": 13, "modifier": 0},
+    {"min": 14, "max": 17, "modifier": 1},
+    {"min": 18, "max": 19, "modifier": 2},
+    {"min": 20, "max": 20, "modifier": 3}
+  ],
+  "stat_names": ["Str", "Dex", "Con", "Int", "Wis", "Cha"],
+  "default_array": [2, 1, 0, 0, -1, -2],
+  "minimum_required": 2,
+  "max_stat": 4,
+  "notes": "At least one stat must be +2 or higher. Max stat is +4 (from class/racial talents)."
+}

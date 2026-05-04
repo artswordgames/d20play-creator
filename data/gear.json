@@ -1,0 +1,74 @@
+{
+  "version": "0.2.8.2",
+  "armor": {
+    "Leather":       {"cost": 10,   "ac": 11, "max_dex": null, "slots": 1, "properties": []},
+    "Chain":         {"cost": 100,  "ac": 14, "max_dex": 0,    "slots": 2, "properties": ["B"]},
+    "Plate":         {"cost": 1000, "ac": 16, "max_dex": 0,    "slots": 3, "properties": ["B"]},
+    "Mithril Chain": {"cost": 1000, "ac": 14, "max_dex": 2,    "slots": 1, "properties": []},
+    "Shield":        {"cost": 10,   "ac": 2,  "max_dex": null, "slots": 1, "properties": ["don/doff action"]}
+  },
+  "armor_notes": {
+    "B": "Bulky: DA stealth, swim.",
+    "max_dex": "Maximum Dex bonus to AC. null = full Dex applies.",
+    "negative_dex": "Negative Dex does not lower your AC."
+  },
+  "weapons": {
+    "Battleaxe":   {"cost": 10, "damage": "d8",  "range": null,  "slots": 1, "properties": ["V"]},
+    "Club":        {"cost": 0,  "damage": "d4",  "range": null,  "slots": 1, "properties": []},
+    "Crossbow":    {"cost": 25, "damage": "d6",  "range": "100", "slots": 1, "properties": ["2", "L"]},
+    "Dagger":      {"cost": 3,  "damage": "d4",  "range": "30",  "slots": 1, "properties": ["F", "T"]},
+    "Dart":        {"cost": 1,  "damage": "d4",  "range": "30",  "slots": 0, "properties": ["F", "T"], "notes": "5 per slot"},
+    "Greataxe":    {"cost": 15, "damage": "d10", "range": null,  "slots": 1, "properties": ["2"]},
+    "Greatsword":  {"cost": 20, "damage": "d10", "range": null,  "slots": 1, "properties": ["2"]},
+    "Halberd":     {"cost": 15, "damage": "d10", "range": null,  "slots": 2, "properties": ["2", "R"]},
+    "Hand Axe":    {"cost": 5,  "damage": "d6",  "range": "30",  "slots": 1, "properties": ["T"]},
+    "Hammer":      {"cost": 2,  "damage": "d4",  "range": "30",  "slots": 1, "properties": ["T"]},
+    "Javelin":     {"cost": 1,  "damage": "d4",  "range": "50",  "slots": 1, "properties": ["T"]},
+    "Longbow":     {"cost": 25, "damage": "d8",  "range": "150", "slots": 1, "properties": ["2"]},
+    "Longsword":   {"cost": 15, "damage": "d8",  "range": null,  "slots": 1, "properties": ["V"]},
+    "Mace":        {"cost": 5,  "damage": "d6",  "range": null,  "slots": 1, "properties": []},
+    "Shortbow":    {"cost": 10, "damage": "d6",  "range": "60",  "slots": 1, "properties": ["2"]},
+    "Shortsword":  {"cost": 10, "damage": "d6",  "range": null,  "slots": 1, "properties": ["F"]},
+    "Sling":       {"cost": 2,  "damage": "d4",  "range": "50",  "slots": 1, "properties": []},
+    "Spear":       {"cost": 5,  "damage": "d6",  "range": "50",  "slots": 1, "properties": ["T", "V"]},
+    "Staff":       {"cost": 5,  "damage": "d4",  "range": null,  "slots": 1, "properties": ["F", "2"]},
+    "Warhammer":   {"cost": 10, "damage": "d8",  "range": null,  "slots": 1, "properties": ["V"]}
+  },
+  "weapon_properties": {
+    "2": "Two-Handed: Must use 2 hands to use.",
+    "F": "Finesse: Use Str or Dex for attack.",
+    "L": "Loading: Can only fire once per turn.",
+    "R": "Reach: Can attack up to 10' away.",
+    "T": "Thrown: Can throw for a ranged attack using Str.",
+    "V": "Versatile: Can use 1 or 2 hands. If 2H and Str positive, +1 damage."
+  },
+  "dual_wield_note": "Melee with weapon in each hand: Roll damage for weapon used. If Dex positive, +1 damage from off-hand.",
+  "adventuring_gear": {
+    "Arrow x20":       {"cost": 1,  "slots": 1},
+    "Bolt x20":        {"cost": 1,  "slots": 1},
+    "Caltrops x20":    {"cost": 5,  "slots": 1},
+    "Explorer's Kit":  {"cost": 5,  "slots": 0, "contents": ["grappling hook", "iron spike x5", "rations x3", "rope-50'", "tinderbox", "torch x2"], "notes": "Contents take individual slots"},
+    "Grappling Hook":  {"cost": 1,  "slots": 1},
+    "Iron Spike x5":   {"cost": 1,  "slots": 1},
+    "Rations x3":      {"cost": 1,  "slots": 1},
+    "Rope-50'":        {"cost": 1,  "slots": 1},
+    "Tinderbox":       {"cost": 1,  "slots": 1},
+    "Torch":           {"cost": 1,  "slots": 1, "notes": "Illuminate 20' burst. Duration: 1 hour."},
+    "Potion of Healing":{"cost": 50, "slots": 1, "notes": "Heal 2d4 hp."}
+  },
+  "starting_gold": 100,
+  "suggested_gear": {
+    "Bard": ["leather", "shortsword", "dagger", "explorer's kit"],
+    "Fighter": ["leather", "shield", "longsword", "javelin x2", "explorer's kit"],
+    "Priest": ["leather", "shield", "longsword", "javelin x2", "explorer's kit"],
+    "Ranger": ["leather", "longbow", "arrow x20", "shortsword x2", "explorer's kit"],
+    "Thief": ["leather", "shortsword", "dagger", "explorer's kit"],
+    "Wizard": ["staff", "explorer's kit"]
+  },
+  "carrying_capacity": {
+    "base_slots": 10,
+    "strength_bonus": "Add double your Str (if positive) to slots",
+    "free_items": ["clothes", "packs"],
+    "notes": "Most gear takes up 1 slot. Some heavy or bulky gear takes more."
+  }
+}
