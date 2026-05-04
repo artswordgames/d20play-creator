@@ -1,0 +1,104 @@
+{
+  "name": "Seraphina",
+  "player_name": "Test Player",
+  "level": 1,
+  "xp": 0,
+  "class": "Wizard",
+  "race": "Elf",
+  "background": "Apprentice",
+  "alignment": "Neutral",
+  "deity": "",
+  "stats": {
+    "Str": 2,
+    "Dex": 1,
+    "Con": 0,
+    "Int": 3,
+    "Wis": -1,
+    "Cha": -2
+  },
+  "hp": 3,
+  "max_hp": 3,
+  "ac": 11,
+  "speed": 30,
+  "languages": [
+    "Common",
+    "Elvish",
+    "Draconic",
+    "Infernal",
+    "Dwarvish",
+    "Goblin"
+  ],
+  "base_talents": [
+    "Reasoned",
+    "Spellbook",
+    "Spellcasting",
+    "Studied Spell"
+  ],
+  "racial_talent": "Fae",
+  "random_talents": [],
+  "trained_skill": "Arcana",
+  "gear": [
+    {
+      "name": "Staff",
+      "slots": 1,
+      "category": "weapon",
+      "damage": "d4",
+      "range": null,
+      "properties": [
+        "F",
+        "2"
+      ]
+    },
+    {
+      "name": "Grappling Hook",
+      "slots": 1,
+      "category": "gear"
+    },
+    {
+      "name": "Iron Spike x5",
+      "slots": 1,
+      "category": "gear"
+    },
+    {
+      "name": "Rations x3",
+      "slots": 1,
+      "category": "gear"
+    },
+    {
+      "name": "Rope-50'",
+      "slots": 1,
+      "category": "gear"
+    },
+    {
+      "name": "Tinderbox",
+      "slots": 1,
+      "category": "gear"
+    },
+    {
+      "name": "Torch",
+      "slots": 1,
+      "category": "gear"
+    },
+    {
+      "name": "Torch",
+      "slots": 1,
+      "category": "gear"
+    }
+  ],
+  "weapons": [
+    "Staff"
+  ],
+  "worn_armor": "",
+  "has_shield": false,
+  "gold": 100,
+  "spells_known": [
+    "Fire Bolt",
+    "Magic Missile",
+    "Light",
+    "Sleep"
+  ],
+  "studied_spell": "Fire Bolt",
+  "carrying_capacity": 14,
+  "used_slots": 8,
+  "notes": []
+}

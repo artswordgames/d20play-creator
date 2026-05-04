@@ -1,0 +1,40 @@
+============================================================
+  Seraphina
+  Played By: Test Player
+============================================================
+  Class: Wizard  Level: 1  XP: 0
+  Race: Elf  AL: Neutral  Deity: 
+  Background: Apprentice (Arcana)
+────────────────────────────────────────────────────────────
+  Str: +2  Dex: +1  Con: +0  Int: +3  Wis: -1  Cha: -2
+────────────────────────────────────────────────────────────
+  AC: 11  HP: 3/3  Speed: 30'
+────────────────────────────────────────────────────────────
+  TALENTS
+    • Reasoned
+    • Spellbook
+    • Spellcasting
+    • Studied Spell
+    • Fae (racial)
+────────────────────────────────────────────────────────────
+  LANGUAGES: Common, Elvish, Draconic, Infernal, Dwarvish, Goblin
+────────────────────────────────────────────────────────────
+  GEAR (8 of 14 slots)  Gold: 100gp
+    • Staff (1 slot)
+    • Grappling Hook (1 slot)
+    • Iron Spike x5 (1 slot)
+    • Rations x3 (1 slot)
+    • Rope-50' (1 slot)
+    • Tinderbox (1 slot)
+    • Torch (1 slot)
+    • Torch (1 slot)
+────────────────────────────────────────────────────────────
+  SPELLS KNOWN
+    • Fire Bolt ★
+    • Magic Missile
+    • Light
+    • Sleep
+  ★ = Studied Spell (cast with AD)
+============================================================
+  d20play RPG v0.2.8.1
+============================================================
